@@ -1,0 +1,4 @@
+project: rsocket-go
+target: rsocket-go-rsocket-go-fuzz
+cmds:
+  - cmd: ./decoder-fuzz.libfuzzer
